@@ -19,6 +19,6 @@ int main(void)
 		putchar(ch);
 		++ch;
 	}
-
+	putchat('\n');
 	return (0);
 }
