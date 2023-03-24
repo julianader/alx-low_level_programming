@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_most_numbers - print 0 - 9 apart
  *                 from 2 and 4 and you can
@@ -17,6 +17,5 @@ void print_most_numbers(void)
 			continue;
 		_putchar(i + 48);
 	}
-	
 	_putchar('\n');
 }
