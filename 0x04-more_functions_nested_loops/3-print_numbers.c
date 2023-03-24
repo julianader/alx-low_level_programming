@@ -7,15 +7,13 @@
  * Return: Always 0 (Success)
 */
 
-int print_numbers(void)
+void print_numbers(void)
 {
-	int i;
+	int num = 0;
 
-	for (i = 0; i<10; ++i)
-	{
-		printf("%d", i);
-	}
-	printf("\n");
-
-	return (0);
+	do {
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9);
+	_putchar('\n');
 }
