@@ -9,8 +9,10 @@
 #include <stdio.h>
 #include <elf.h>
 
-ssize_t read_textfile(const char *filename, size_t letters);
-int create_file(const char *filename, char *text_content);
-int append_text_to_file(const char *filename, char *text_content);
+void positive_or_negative(int i);
+int largest_number(int, int, int);
+void print_remaining_days(int, int, int);
+int convert_day(int month, int day);
 
-#endif
+#endif /* MAIN_H */
+
